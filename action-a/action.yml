@@ -1,6 +1,6 @@
 name:  "Hello Actions"
 description: "Greet Someone"
-author: "Giri"
+author: "giri@singularislabs.com"
 
 inputs:
   MY_NAME:
@@ -8,10 +8,10 @@ inputs:
     required: true
     default: "World"
 
-runn:
+runs:
   using: "docker"
   image: "Dockerfile"
 
 branding:
-  icon: "mix"
+  icon: "mic"
   color: "purple"
